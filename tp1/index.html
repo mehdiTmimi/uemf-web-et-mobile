@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TP1</title>
     <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
 </head>
 
 <body>
@@ -17,18 +18,19 @@
             <h2>Form</h2>
             <div>
                 <div class="inputs">
-                    <input type="text" placeholder="ref">
-                    <input type="text" placeholder="intitule">
-                    <input type="text" placeholder="prix">
+                    <input id="refInput" type="text" placeholder="ref">
+                    <input id="intituleInput" type="text" placeholder="intitule">
+                    <input id="prixInput" type="text" placeholder="prix">
                 </div>
                 <div class="btns">
-                    <button>effacer</button>
-                    <button>ajouter</button>
+                    <button id="effacerBtn">effacer</button>
+                    <button id="ajouterBtn">ajouter</button>
                 </div>
             </div>
         </section>
         <section class="listSection">
             <h2>Liste</h2>
+            <div> - la moyenne est : <span>0</span> <button>update</button> </div>
             <table>
                 <thead>
                     <tr>
@@ -38,8 +40,15 @@
                         <th>options</th>
                     </tr>
                 </thead>
-                <tbody>
-
+                <tbody id="tbody">
+                   <!--
+                     <tr>
+                        <td>cdsf</td>
+                        <td>ioipo</td>
+                        <td>12</td>
+                        <td><button>X</button></td>
+                    </tr>
+                   -->
                 </tbody>
             </table>
         </section>
