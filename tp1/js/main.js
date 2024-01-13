@@ -8,7 +8,7 @@ const updateBtn = document.querySelector("#updateBtn")
 const tbody = document.querySelector("#tbody")
 const dispMoyenne = document.querySelector("#dispMoyenne")
 const loadingDiv = document.querySelector("#loadingDiv")
-const URL = "http://10.12.80.202:3000/produits"
+const URL = "http://localhost:3001/produits"
 const load = () => {
     const xhr = new XMLHttpRequest()
     xhr.open("GET", URL, true)

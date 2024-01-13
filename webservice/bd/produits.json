@@ -1,0 +1,16 @@
+{
+  "produits": [
+    {
+      "ref": "drqwr",
+      "intitule": "ecran",
+      "prix": 1000,
+      "id": "XFV2L2t"
+    },
+    {
+      "ref": "uiu",
+      "intitule": "pc",
+      "prix": "10000",
+      "id": "GdQtgiS"
+    }
+  ]
+}
